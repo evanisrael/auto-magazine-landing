@@ -1,0 +1,10 @@
+.footer__fieldset {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  max-height: 34px;
+  max-width: 340px;
+  display: grid;
+  grid-template-columns: max-content min-content;
+  grid-template-rows: repeat(2, max-content);
+}

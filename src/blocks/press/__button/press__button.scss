@@ -4,4 +4,8 @@
   width: 13px;
   height: 14px;
   background-color: $deep-blue;
+
+  &:nth-of-type(1) {
+    background-color: $yellow;
+  }
 }
