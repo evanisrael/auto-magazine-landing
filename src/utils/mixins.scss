@@ -1,0 +1,5 @@
+// Mixins for text styles
+@mixin text {
+  font-family: $base-font-family;
+  color: $yellow;
+}
