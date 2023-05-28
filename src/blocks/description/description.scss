@@ -1,0 +1,7 @@
+.description {
+  display: grid; 
+  grid-template-columns: 50% 25% 25%; 
+  grid-template-rows: 1fr; 
+  border: 1px solid $yellow; 
+  min-height: 420px;
+}
