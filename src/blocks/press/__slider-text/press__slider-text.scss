@@ -3,4 +3,10 @@
   font-weight: 300;
   font-size: 30px;
   line-height: 42px;
+  transition: opacity 0.5s ease;
+  opacity: 1;
+}
+
+.press__slider-text.fade-out {
+  opacity: 0;
 }
