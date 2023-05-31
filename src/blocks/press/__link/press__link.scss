@@ -9,4 +9,10 @@
   border-radius: 50%;
   text-decoration: none;
   color: $yellow;
+
+  &:hover {
+    color: $deep-blue;
+    background-color: $yellow;
+    @include hover-animation;
+  }
 }

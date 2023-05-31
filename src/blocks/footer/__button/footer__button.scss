@@ -12,4 +12,10 @@
   letter-spacing: 1px;
   text-transform: uppercase;
   margin: 0;
+
+  &:hover {
+    color: $yellow;
+    background-color: $deep-blue;
+    @include hover-animation;
+  }
 }
