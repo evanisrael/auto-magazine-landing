@@ -1,4 +1,9 @@
 .slider__button {
   border: 0;
   background-color: $deep-blue;
+
+  &:hover {
+    opacity: 0.6;
+    @include hover-animation;
+  }
 }

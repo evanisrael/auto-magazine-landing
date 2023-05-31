@@ -5,4 +5,9 @@
   line-height: 16px;
   letter-spacing: 1px;
   text-transform: uppercase;
+
+  &:hover {
+    opacity: 0.6;
+    @include hover-animation;
+  }
 }

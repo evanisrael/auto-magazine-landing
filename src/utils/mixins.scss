@@ -3,3 +3,9 @@
   font-family: $base-font-family;
   color: $yellow;
 }
+
+// Mixins for animations
+@mixin hover-animation {
+  transition: all 0.4s ease-in-out;
+  cursor: pointer;
+}
