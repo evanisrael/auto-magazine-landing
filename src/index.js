@@ -13,3 +13,40 @@ slider.init();
 
 const pressSlider = new PressSlider();
 pressSlider.initialize();
+
+
+
+
+
+const factsSection = document.querySelector('.description');
+const gallerySection = document.querySelector('.slider');
+const pressSection = document.querySelector('.press');
+
+const factsButton = document.getElementById('facts-btn');
+const galleryButton = document.getElementById('gallery-btn');
+const pressButton = document.getElementById('press-btn');
+const headerButton = document.querySelector('.header__button');
+
+factsButton.addEventListener('click', () => {
+  factsSection.scrollIntoView({ behavior: "smooth"});
+});
+
+galleryButton.addEventListener('click', () => {
+  gallerySection.scrollIntoView({ behavior: "smooth"});
+});
+
+pressButton.addEventListener('click', () => {
+  pressSection.scrollIntoView({ behavior: "smooth"});
+});
+
+headerButton.addEventListener('click', () => {
+  factsSection.scrollIntoView({ behavior: "smooth"});
+})
+
+
+const subscribeForm = document.querySelector('.footer__form');
+
+subscribeForm.addEventListener('submit', (evt) => {
+  evt.preventDefault();
+  evt.submitter.textContent = 'Готово!';
+});
