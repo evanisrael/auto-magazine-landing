@@ -1,4 +1,20 @@
 .body {
   @include text;
   background-color: $deep-blue;
+
+  &::-webkit-scrollbar {
+    width: 20px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: $deep-blue;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: $yellow;
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background: rgba($color: $yellow, $alpha: 0.5);
+  }
 }
