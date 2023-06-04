@@ -4,4 +4,10 @@
   border-bottom: 1px solid $yellow;
   position: relative;
   overflow: hidden;
+
+  @media screen and (max-width: 768px) {
+   display: flex;
+   justify-content: center;
+   max-width: 768px;
+  }
 }

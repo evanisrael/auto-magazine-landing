@@ -1,3 +1,7 @@
 .slider__image {
   display: block;
+
+  @media screen and (max-width: 768px) {
+   padding: 35px 35px 0 35px; 
+  }
 }
